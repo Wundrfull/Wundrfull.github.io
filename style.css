@@ -60,7 +60,7 @@ h3 {
 }
 
 #nav p {
-    color: orange;
+    font-size: 12px;
     padding-right: 5px;
 }
 a {
@@ -79,6 +79,24 @@ a {
     float: left;
     margin: 0 auto;
     text-align: center;
+}
+
+#aboutMe {
+    float: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#aboutMe img{ 
+    padding: 25px;
+}
+
+#aboutMe p {
+    text-align: justify;
+    font-family: 'Exo 2', sans-serif;
+    padding: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .card {
@@ -151,6 +169,10 @@ footer {
     #nav p {
         padding-right: 25px;
     }
+    
+    #aboutMe p {
+        max-width: 400px;
+    }
 }
 
 @media only screen and (min-width: 1224px) {
@@ -166,6 +188,12 @@ footer {
         min-width: 400px;
     }
     
+    #aboutMe {
+        display: flex;
+        margin: 0 auto;
+        float: right;  
+        align-items: center;
+    }
 }
     
 @media only screen and (min-width: 1824px) {
@@ -179,5 +207,12 @@ footer {
     
     .card {
         width: 32%;
+    }
+    
+    #aboutMe {
+        display: flex;
+        margin: 0 auto;
+        float: none;  
+        padding-left: 35%;
     }
 }
