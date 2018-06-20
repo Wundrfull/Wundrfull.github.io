@@ -113,6 +113,10 @@ a {
     max-width: 500px;
 }
 
+.card:hover {
+    opacity: .2;
+}
+
 #nav {
     width: 30%;
     float: right;
@@ -135,6 +139,27 @@ footer {
     padding: 5px;
 }
 
+#contact {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-align: left;
+    max-width: 300px;
+}
+
+#contact h3 {
+    font-size: 14px;
+    border-bottom: 2px solid orange;
+}
+
+#contact p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+
+#contact img {
+    padding: 25px;
+}
 
 @media only screen and (min-width: 600px) {
     
