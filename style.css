@@ -113,6 +113,10 @@ a {
     max-width: 500px;
 }
 
+.card:hover {
+    opacity: .8;
+}
+
 #nav {
     width: 30%;
     float: right;
