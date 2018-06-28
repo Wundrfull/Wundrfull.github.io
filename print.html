@@ -9,6 +9,8 @@
     <meta name="description" content="Home Page">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Exo+2:300|Playfair+Display+SC:400,400i" rel="stylesheet">
+    <link href="lightbox.css" rel="stylesheet">
+    <script src="js/lightbox-plus-jquery.js"></script>
 </head>
 
 <body>
@@ -16,20 +18,26 @@
         <header>
             <h1>Wundrfull Studio</h1>
         </header>
-
+        
         <div id="contentContainer">
-            <div id="contact">
-                <h3>GET IN TOUCH</h3>
-                <p>wundrfull.us@gmail.com</p>
-                <a href="https://www.instagram.com/wundrfull/?hl=en" target="_blank"><img src="src/instagram.png" alt="instagramLogo" width="40px"></a>
-                <a href="https://twitter.com/wundrfull?lang=en" target="_blank"><img src="src/twitter.png" alt="twitter" width="40px"></a>
+            <div class="card">
+                <a href="src/witchFull.png" data-lightbox="salem" data-title="Salem Witch Poster"><img src="src/witchthumbnail.png" alt="witchImg"></a>
+            </div>
+            <div class="card">
+                <a href="src/SamuriFull.png" data-lightbox="samurai" data-title="Samurai Poster"><img src="src/samuraiPoster.png" alt="samuraiImg"></a>
+            </div>
+            <div class="card">
+                <img src="src/DetersInvitation.png" alt="invite">
+            </div>
+            <div class="card">
+                <img src="src/imagiCard.png" alt="imagiCard">
             </div>
         </div>
-        <div id="nav">
+        <div id="nav">  
             <a href="index.html"><img src="src/logo_small.png"></a>
             <h3><a href="about.html" id="sansText">About</a></h3>
             <h3><a href="contact.html" id="sansText">Contact</a></h3>
-            <br>
+            <br>            
             <h2><a href="#" id="sSerifText">Web</a></h2>
             <h2><a href="print.html" id="sSerifText">Print</a></h2>
             <h2><a href="digital.html" id="sSerifText">Digital</a></h2>
