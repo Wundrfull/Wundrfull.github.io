@@ -551,3 +551,9 @@ a {
     font-size: 2.5em;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .ml6 {
+    font-size: 1em;
+  }
+}
